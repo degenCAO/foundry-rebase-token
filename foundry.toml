@@ -1,0 +1,13 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+rpc_endpoints= { sepolia  = "https://sepolia.infura.io/v3/8f39e93a563c40dc999f552239dcadf3", arb-sepolia = "https://arbitrum-sepolia.infura.io/v3/8f39e93a563c40dc999f552239dcadf3"}
+
+remappings=['@OpenZeppelin/openzeppelin-contracts=lib/openzeppelin-contracts',
+'@chainlink/=lib/chainlink-evm/',
+'@chainlink-ccip=lib/chainlink-ccip',
+'@chainlink-local/=lib/chainlink-local/',
+'@ccip/=lib/ccip/']
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
